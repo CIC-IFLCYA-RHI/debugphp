@@ -7,7 +7,6 @@ if(isset($_POST['submit'])){
 	$promedio = ($nota1 + $nota2 + $nota3) / 3;
 	echo "<p>{$nombre}, tu promedio es: {$promedio}</p>";
 }
-?>
 <!DOCTYPE HTML>
 <HTML lang="es">
 <head><meta charset="UTF-8">
@@ -30,3 +29,4 @@ if(isset($_POST['submit'])){
 </body>
 
 </HTML>
+?>
